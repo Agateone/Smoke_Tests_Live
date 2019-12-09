@@ -65,7 +65,7 @@ public class POPSMO02_Popbitch_register_from_wallet {
 	} 
 	//chrome
 		else if (browser.equalsIgnoreCase("chrome")) { 
-			System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+			System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 			Popbitch_register_from_wallet_driver= new ChromeDriver();				
 			Popbitch_register_from_wallet_driver.get("http://popbitch.com");
 			Popbitch_Logged_Out_Wallet w1= new Popbitch_Logged_Out_Wallet(Popbitch_register_from_wallet_driver);

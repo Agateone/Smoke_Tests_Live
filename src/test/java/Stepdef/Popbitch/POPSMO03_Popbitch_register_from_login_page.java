@@ -70,7 +70,7 @@ public class POPSMO03_Popbitch_register_from_login_page {
 		} 
 		//chrome
 			else if (browser.equalsIgnoreCase("chrome")) { 
-				System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				Popbitch_Signup_Page_driver= new ChromeDriver();				
 				Popbitch_Signup_Page_driver.get("https://popbitch.com/2019/11/royal-blush/");
 				WebDriverWait wait = new WebDriverWait(Popbitch_Signup_Page_driver, 20);

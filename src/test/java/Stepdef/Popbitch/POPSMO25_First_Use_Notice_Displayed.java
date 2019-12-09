@@ -34,7 +34,7 @@ public class POPSMO25_First_Use_Notice_Displayed {
 		} 
 		//chrome
 			else if (browser.equalsIgnoreCase("chrome")) { 
-				System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				driver= new ChromeDriver();				
 				
 		} 

@@ -70,7 +70,7 @@ import Elements.Register_Page_Elements1;
 					} 
 					//chrome
 						else if (browser.equalsIgnoreCase("chrome")) { 
-							System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+							System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 							driver= new ChromeDriver();				
 							driver.get("https://reaction.life/labours-last-gasp/");
 							Thread.sleep(4000);

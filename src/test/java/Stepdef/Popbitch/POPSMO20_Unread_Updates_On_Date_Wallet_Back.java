@@ -66,7 +66,7 @@ public class POPSMO20_Unread_Updates_On_Date_Wallet_Back {
 				} 
 				//chrome
 					else if (browser.equalsIgnoreCase("chrome")) { 
-						System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+						System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 						driver= new ChromeDriver();				
 						driver.get("https://popbitch.com/2019/11/royal-blush/");
 						Thread.sleep(4000);

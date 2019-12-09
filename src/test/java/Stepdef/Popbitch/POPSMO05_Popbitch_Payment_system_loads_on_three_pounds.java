@@ -59,7 +59,7 @@ public class POPSMO05_Popbitch_Payment_system_loads_on_three_pounds {
 		} 
 		//chrome
 			else if (browser.equalsIgnoreCase("chrome")) { 
-				System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				Popbitch_Payment_system_loads_on_one_pound_driver= new ChromeDriver();				
 				Popbitch_Payment_system_loads_on_one_pound_driver.get("http://popbitch.com");
 				Popbitch_Logged_Out_Wallet w1= new Popbitch_Logged_Out_Wallet(Popbitch_Payment_system_loads_on_one_pound_driver);

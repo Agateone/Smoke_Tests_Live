@@ -80,7 +80,7 @@ public class POPSMO15_Wallet_balance_same_on_reading_article {
 					} 
 					//chrome
 						else if (browser.equalsIgnoreCase("chrome")) { 
-							System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+							System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 							driver= new ChromeDriver();				
 							driver.get("https://popbitch.com/2019/11/royal-blush/");
 							Popbitch_First_Use_Notice_Elements maidenhead_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);

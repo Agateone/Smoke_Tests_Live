@@ -71,7 +71,7 @@ public class POPSMO11_Axate_lets_user_select_their_country {
 		} 
 		//chrome
 			else if (browser.equalsIgnoreCase("chrome")) { 
-				System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				Country_driver= new ChromeDriver();				
 				Country_driver.get("https://popbitch.com/2019/11/royal-blush/");
 				Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(Country_driver);

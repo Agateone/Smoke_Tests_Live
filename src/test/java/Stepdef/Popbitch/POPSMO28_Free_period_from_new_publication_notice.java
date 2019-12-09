@@ -76,7 +76,7 @@ public class POPSMO28_Free_period_from_new_publication_notice {
 		} 
 		//chrome
 			else if (browser.equalsIgnoreCase("chrome")) { 
-				System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				driver= new ChromeDriver();				
 				driver.get("https://reaction.life/labours-last-gasp/");
 				Reaction_first_use_notice reaction = new Reaction_first_use_notice(driver);

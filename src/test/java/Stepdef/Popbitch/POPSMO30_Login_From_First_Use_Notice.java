@@ -64,7 +64,7 @@ public class POPSMO30_Login_From_First_Use_Notice {
 			} 
 			//chrome
 				else if (browser.equalsIgnoreCase("chrome")) { 
-					System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+					System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 					driver= new ChromeDriver();				
 					driver.get("https://popbitch.com/2019/11/royal-blush/");
 					WebDriverWait wait = new WebDriverWait(driver, 20);
