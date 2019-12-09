@@ -57,7 +57,7 @@ public class POPSMO26_Popbitch_Free_Period_From_Finish_Notice {
 				}
 				catch(Exception e)
 				{
-					System.out.println("Couldnt open popbitch staging");
+					System.out.println("Could not open popbitch staging");
 				}
 				Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);
 				popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
