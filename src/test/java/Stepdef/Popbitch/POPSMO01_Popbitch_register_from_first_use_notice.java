@@ -70,8 +70,11 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 						System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 						driver= new ChromeDriver();				
 						driver.get("https://popbitch.com/2019/11/royal-blush/");
+						Thread.sleep(10000);
 						Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);
+						Thread.sleep(5000);
 						popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
+						Thread.sleep(5000);
 						WebDriverWait wait = new WebDriverWait(driver, 20);
 						wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));	
 						String reg_Page_url= driver.getCurrentUrl();
@@ -92,7 +95,7 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 	@When("^I enter all the required details on step one and click on continue$")
 	@Test(priority=2)
 	public void i_enter_all_the_required_details_on_step_one_and_click_on_continue() throws Throwable {
-	 
+	 Thread.sleep(5000);
 		Register_Page_Elements1 Reg_page_elements = new Register_Page_Elements1(driver);
 		Reg_page_elements.Registration_Step1();
 		
@@ -103,7 +106,9 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 	@Test(priority=3)
 	public void top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue() throws Throwable {
 		Register_Page_Elements1 Reg_page_elements = new Register_Page_Elements1(driver);
+		Thread.sleep(5000);
 		Reg_page_elements.voucher_process();
+		Thread.sleep(5000);
 		Reg_page_elements.click_continue_on_reg_page2();
 	}
 	
