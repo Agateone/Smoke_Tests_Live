@@ -45,7 +45,7 @@ public class POPSMO26_Popbitch_Free_Period_From_Finish_Notice {
 			String reg_Page_url= driver.getCurrentUrl();
 			if(reg_Page_url.contains("sign"))
 			{
-				System.out.println("Clicking on create wallet opened registration page");
+				System.out.println(" Clicking on create wallet opened registration page");
 			}			
 		}	
 		//safari

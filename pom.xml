@@ -31,6 +31,8 @@
           <suiteXmlFile> Popbitch_SMoke_tests_Live_chrome_3.xml</suiteXmlFile>
           <suiteXmlFile> popbitch_Smoke_tests_Live_Chrome_4.xml</suiteXmlFile>
           
+  
+          
           </suiteXmlFiles>
           </configuration>
         </plugin>
