@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Popbitch Safari]">
+  <test thread-count="5" name="Signup_from_FUN(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice">
+        <methods>
+          <include name="i_am_navigated_to_the_same_article"/>
+          <include name="i_am_successfully_logged_in_to_axate"/>
+        </methods>
+      </class> <!-- Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice -->
+    </classes>
+  </test> <!-- Signup_from_FUN(failed) -->
+</suite> <!-- Failed suite [ Popbitch Safari] -->
