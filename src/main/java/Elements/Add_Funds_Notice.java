@@ -30,7 +30,7 @@ public class Add_Funds_Notice {
 public Boolean Add_funds_notice_displayed()
 {
 	driver_Add_Funds.switchTo().frame("iframe__inpage_notices");
-	Boolean add_funds= driver_Add_Funds.findElement(Add_Funds_Button).isDisplayed();
+	Boolean add_funds= driver_Add_Funds.findElement(By.xpath("/html/body/div/div/div/div/div/div/div/div/button")).isDisplayed();
 	driver_Add_Funds.switchTo().defaultContent();
 	return add_funds;
 }
