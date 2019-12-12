@@ -74,7 +74,7 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 						Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);
 						Thread.sleep(5000);
 						popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
-						Thread.sleep(5000);
+						Thread.sleep(10000);
 						WebDriverWait wait = new WebDriverWait(driver, 20);
 						wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));	
 						String reg_Page_url= driver.getCurrentUrl();
