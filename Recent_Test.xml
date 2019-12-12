@@ -3,10 +3,8 @@
 <suite name=" Popbitch Safari">
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
-    <classes>
-  
- <class name="Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page"/>
-   	 
+    <classes> 
+ <class name="Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page"/>   	 
     </classes>
   </test> 
   </suite>
