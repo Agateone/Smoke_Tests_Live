@@ -27,10 +27,7 @@
                 <forkCount>0</forkCount>
           <suiteXmlFiles>
           <suiteXmlFile>Recent_Test.xml</suiteXmlFile>
-         
-          
-  
-          
+      
           </suiteXmlFiles>
           </configuration>
         </plugin>

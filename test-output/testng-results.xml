@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="37" ignored="0" total="49" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name=" Popbitch Chrome" duration-ms="10322" started-at="2019-12-10T15:17:24Z" finished-at="2019-12-10T15:17:34Z">
+  <suite name=" Popbitch Chrome" duration-ms="10252" started-at="2019-12-12T12:39:08Z" finished-at="2019-12-12T12:39:18Z">
     <groups>
     </groups>
-    <test name="Smoke Tests" duration-ms="10322" started-at="2019-12-10T15:17:24Z" finished-at="2019-12-10T15:17:34Z">
+    <test name="Smoke Tests" duration-ms="10252" started-at="2019-12-12T12:39:08Z" finished-at="2019-12-12T12:39:18Z">
       <class name="Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages(java.lang.String)[pri:7, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages(java.lang.String)[pri:7, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:8, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:8, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:9, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:9, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -102,7 +102,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue -->
-        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:10, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:10, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -143,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_get_a_funded_axate_wallet_with_one_pound_in_it -->
-        <test-method status="FAIL" signature="navigated_to_popbitch_com()[pri:11, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="navigated_to_popbitch_com" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="navigated_to_popbitch_com()[pri:11, instance:Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet@3a5ed7a6]" name="navigated_to_popbitch_com" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -181,7 +181,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- navigated_to_popbitch_com -->
       </class> <!-- Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet -->
       <class name="Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:1, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="58" started-at="2019-12-10T15:17:24Z" finished-at="2019-12-10T15:17:24Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:1, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="42" started-at="2019-12-12T12:39:08Z" finished-at="2019-12-12T12:39:08Z">
           <params>
             <param index="0">
               <value>
@@ -235,11 +235,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:2, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="5009" started-at="2019-12-10T15:17:24Z" finished-at="2019-12-10T15:17:29Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:2, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="5007" started-at="2019-12-12T12:39:08Z" finished-at="2019-12-12T12:39:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:3, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="5003" started-at="2019-12-10T15:17:29Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:3, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="5004" started-at="2019-12-12T12:39:13Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -276,7 +276,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue -->
-        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:4, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="89" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:4, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="62" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -317,7 +317,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_get_a_funded_axate_wallet_with_one_pound_in_it -->
-        <test-method status="FAIL" signature="navigated_to_the_same_article()[pri:5, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="navigated_to_the_same_article" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="navigated_to_the_same_article()[pri:5, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="navigated_to_the_same_article" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -353,7 +353,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigated_to_the_same_article -->
-        <test-method status="FAIL" signature="finish_notice_appears()[pri:6, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="finish_notice_appears" duration-ms="2" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="finish_notice_appears()[pri:6, instance:Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice@7791a895]" name="finish_notice_appears" duration-ms="2" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -392,7 +392,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- finish_notice_appears -->
       </class> <!-- Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice -->
       <class name="Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:66, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:66, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -446,15 +446,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:67, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:67, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="PASS" signature="i_click_on_one_pound_on_regpage_two()[pri:68, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_click_on_one_pound_on_regpage_two" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_click_on_one_pound_on_regpage_two()[pri:68, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_click_on_one_pound_on_regpage_two" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_click_on_one_pound_on_regpage_two -->
-        <test-method status="FAIL" signature="enter_valid_card_details()[pri:69, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="enter_valid_card_details" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="enter_valid_card_details()[pri:69, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="enter_valid_card_details" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -495,7 +495,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_card_details -->
-        <test-method status="FAIL" signature="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two()[pri:70, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two" duration-ms="0" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two()[pri:70, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two" duration-ms="2" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -532,7 +532,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_select_country_as_United_states_from_the_drop_down_on_reg_page_two -->
-        <test-method status="FAIL" signature="i_enter_state_as_Alaska()[pri:71, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_enter_state_as_Alaska" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_enter_state_as_Alaska()[pri:71, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_enter_state_as_Alaska" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -573,7 +573,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_state_as_Alaska -->
-        <test-method status="FAIL" signature="i_enter_Zipcode()[pri:72, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_enter_Zipcode" duration-ms="0" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_enter_Zipcode()[pri:72, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="i_enter_Zipcode" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -614,7 +614,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_Zipcode -->
-        <test-method status="FAIL" signature="country_in_the_personal_information_page_in_the_account_page_is_united_states()[pri:73, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="country_in_the_personal_information_page_in_the_account_page_is_united_states" duration-ms="0" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="country_in_the_personal_information_page_in_the_account_page_is_united_states()[pri:73, instance:Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US@4f970963]" name="country_in_the_personal_information_page_in_the_account_page_is_united_states" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -657,7 +657,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- country_in_the_personal_information_page_in_the_account_page_is_united_states -->
       </class> <!-- Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US -->
       <class name="Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:59, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:59, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -711,15 +711,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:60, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:60, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="PASS" signature="i_click_on_one_pound_on_regpage_two()[pri:61, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_click_on_one_pound_on_regpage_two" duration-ms="0" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_click_on_one_pound_on_regpage_two()[pri:61, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_click_on_one_pound_on_regpage_two" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_click_on_one_pound_on_regpage_two -->
-        <test-method status="FAIL" signature="enter_valid_card_details()[pri:62, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="enter_valid_card_details" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="enter_valid_card_details()[pri:62, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="enter_valid_card_details" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -760,7 +760,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_card_details -->
-        <test-method status="FAIL" signature="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two()[pri:63, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two()[pri:63, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="i_select_country_as_United_states_from_the_drop_down_on_reg_page_two" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -797,7 +797,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_select_country_as_United_states_from_the_drop_down_on_reg_page_two -->
-        <test-method status="FAIL" signature="state_is_displayed()[pri:64, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="state_is_displayed" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="state_is_displayed()[pri:64, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="state_is_displayed" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -834,7 +834,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- state_is_displayed -->
-        <test-method status="FAIL" signature="postcode_is_displayed()[pri:65, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="postcode_is_displayed" duration-ms="0" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="postcode_is_displayed()[pri:65, instance:Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2@65e2dbf3]" name="postcode_is_displayed" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -873,7 +873,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- postcode_is_displayed -->
       </class> <!-- Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2 -->
       <class name="Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:48, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:48, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -927,11 +927,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:49, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="2" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:49, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="FAIL" signature="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch()[pri:50, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch()[pri:50, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -971,7 +971,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_skip_the_payment_and_navigating_to_a_premium_article_on_popbitch -->
-        <test-method status="FAIL" signature="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it()[pri:51, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it()[pri:51, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1012,7 +1012,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_get_an_unfunded_axate_wallet_with_zero_pounds_in_it -->
-        <test-method status="FAIL" signature="an_ADD_funds_notice_is_displayed()[pri:52, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="an_ADD_funds_notice_is_displayed" duration-ms="2" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="an_ADD_funds_notice_is_displayed()[pri:52, instance:Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment@67b92f0a]" name="an_ADD_funds_notice_is_displayed" duration-ms="2" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1051,7 +1051,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- an_ADD_funds_notice_is_displayed -->
       </class> <!-- Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment -->
       <class name="Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages(java.lang.String)[pri:24, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages(java.lang.String)[pri:24, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -1105,15 +1105,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:25, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:25, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="PASS" signature="i_click_on_three_pounds_on_regpage_two()[pri:26, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="i_click_on_three_pounds_on_regpage_two" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_click_on_three_pounds_on_regpage_two()[pri:26, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="i_click_on_three_pounds_on_regpage_two" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_click_on_three_pounds_on_regpage_two -->
-        <test-method status="FAIL" signature="payment_system_displays_card_option()[pri:27, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="payment_system_displays_card_option" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="payment_system_displays_card_option()[pri:27, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="payment_system_displays_card_option" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1153,7 +1153,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment_system_displays_card_option -->
-        <test-method status="FAIL" signature="payment_system_displays_paypal_option()[pri:28, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="payment_system_displays_paypal_option" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="payment_system_displays_paypal_option()[pri:28, instance:Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds@1d16f93d]" name="payment_system_displays_paypal_option" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1195,7 +1195,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- payment_system_displays_paypal_option -->
       </class> <!-- Stepdef.Popbitch.POPSMO05_Popbitch_Payment_system_loads_on_three_pounds -->
       <class name="Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN(java.lang.String)[pri:12, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN(java.lang.String)[pri:12, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -1249,7 +1249,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_login_page_through_popbitch_FUN -->
-        <test-method status="FAIL" signature="I_click_on_register_here_on_the_login_page()[pri:13, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="I_click_on_register_here_on_the_login_page" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="I_click_on_register_here_on_the_login_page()[pri:13, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="I_click_on_register_here_on_the_login_page" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1289,11 +1289,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- I_click_on_register_here_on_the_login_page -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:14, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:14, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:15, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:15, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1330,7 +1330,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue -->
-        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:16, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:16, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1371,7 +1371,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_get_a_funded_axate_wallet_with_one_pound_in_it -->
-        <test-method status="FAIL" signature="navigated_to_the_same_article()[pri:17, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="navigated_to_the_same_article" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="navigated_to_the_same_article()[pri:17, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="navigated_to_the_same_article" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1407,7 +1407,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigated_to_the_same_article -->
-        <test-method status="FAIL" signature="finish_notice_appears()[pri:18, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="finish_notice_appears" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="finish_notice_appears()[pri:18, instance:Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page@6325a3ee]" name="finish_notice_appears" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1446,7 +1446,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- finish_notice_appears -->
       </class> <!-- Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page -->
       <class name="Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country">
-        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:53, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="2" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN(java.lang.String)[pri:53, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -1500,15 +1500,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_FUN -->
-        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:54, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="2" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:54, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
-        <test-method status="PASS" signature="i_click_on_one_pound_on_regpage_two()[pri:55, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_click_on_one_pound_on_regpage_two" duration-ms="0" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="PASS" signature="i_click_on_one_pound_on_regpage_two()[pri:55, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_click_on_one_pound_on_regpage_two" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_click_on_one_pound_on_regpage_two -->
-        <test-method status="FAIL" signature="enter_valid_card_details()[pri:56, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="enter_valid_card_details" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="enter_valid_card_details()[pri:56, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="enter_valid_card_details" duration-ms="1" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1549,7 +1549,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_card_details -->
-        <test-method status="FAIL" signature="i_select_country_as_spain_from_the_drop_down_on_reg_page_two()[pri:57, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_select_country_as_spain_from_the_drop_down_on_reg_page_two" duration-ms="3" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="i_select_country_as_spain_from_the_drop_down_on_reg_page_two()[pri:57, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="i_select_country_as_spain_from_the_drop_down_on_reg_page_two" duration-ms="3" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -1586,7 +1586,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_select_country_as_spain_from_the_drop_down_on_reg_page_two -->
-        <test-method status="FAIL" signature="country_in_the_personal_information_page_in_the_account_page_is_spain()[pri:58, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="country_in_the_personal_information_page_in_the_account_page_is_spain" duration-ms="1" started-at="2019-12-10T15:17:34Z" finished-at="2019-12-10T15:17:34Z">
+        <test-method status="FAIL" signature="country_in_the_personal_information_page_in_the_account_page_is_spain()[pri:58, instance:Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country@2b9627bc]" name="country_in_the_personal_information_page_in_the_account_page_is_spain" duration-ms="0" started-at="2019-12-12T12:39:18Z" finished-at="2019-12-12T12:39:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
