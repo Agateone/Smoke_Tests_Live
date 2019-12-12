@@ -69,8 +69,8 @@ public class Register_Page_Elements1 {
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_marketing_checkbox).click();
 		Thread.sleep(6000);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Register_Button));
-		driver_Register_Page_Elements.findElement(Register_Page_Register_Button).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")));
+		driver_Register_Page_Elements.findElement(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_pay_by_card));
 		
 		}
