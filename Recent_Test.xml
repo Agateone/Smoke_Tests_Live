@@ -5,7 +5,7 @@
    <parameter name="browser" value="chrome" />
     <classes>
   
- <class name="Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet"/>
+ <class name="Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page"/>
    	 
     </classes>
   </test> 
