@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO18_transaction_from_authorise_charge_notice"/>   	 
+ <class name="Stepdef.Popbitch.POPSMO19_transaction_from_newpublication_notice"/>   	 
     </classes>
   </test> 
   </suite>	
