@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice"/>   	 
+ <class name="Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US"/>   	 
     </classes>
   </test> 
-  </suite>
+  </suite>	
