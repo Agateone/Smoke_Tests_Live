@@ -76,7 +76,7 @@ WebDriver Popbitch_add_funds;
 				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				Popbitch_add_funds= new ChromeDriver();				
 				Popbitch_add_funds.get("https://popbitch.com/2019/11/royal-blush/");
-				Thread.sleep(5000);
+				Thread.sleep(10000);
 				Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(Popbitch_add_funds);
 				popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
 				Thread.sleep(5000);
