@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO22_Free_Point_Updates_On_Date_Wallet_Back"/>   	 
+ <class name="Stepdef.Popbitch.POPSMO23_Auto_Charge_Button_Back_Wallet_Off"/>   	 
     </classes>
   </test> 
   </suite>	

@@ -67,16 +67,12 @@ public class POPSMO23_Auto_Charge_Button_Back_Wallet_Off {
 						System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 						driver= new ChromeDriver();				
 						driver.get("https://popbitch.com/2019/11/royal-blush/");
+						Thread.sleep(10000);
 						Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);
+						Thread.sleep(5000);
 						popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
-						WebDriverWait wait = new WebDriverWait(driver, 20);
-						wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));	
-						String reg_Page_url= driver.getCurrentUrl();
-						if(reg_Page_url.contains("https://account.agate.io/my-agate/sign-up?"))
-						{
-							System.out.println("Clicking on create wallet opened registration page");
-						}
-				} 
+						Thread.sleep(10000);
+			} 
 				//edge
 					else if (browser.equalsIgnoreCase("Edge")) {
 					System.setProperty("webdriver.edge.driver","/Users/jay/eclipse-workspace/chromedriver"); 
