@@ -68,7 +68,7 @@ public class Register_Page_Elements1 {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_marketing_checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_marketing_checkbox).click();
-		Thread.sleep(6000);
+		Thread.sleep(8000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")));
 		driver_Register_Page_Elements.findElement(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")).click();
 		System.out.println("\n"+"Registered with the email "+ randomEmail +"\n");
