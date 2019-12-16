@@ -148,7 +148,7 @@ WebDriver driver;
 		System.out.println("Registered with US as country");
 	}
 
-	@Then("Country in the personal information page in the account page is united states")
+	/*@Then("Country in the personal information page in the account page is united states")
 	@Test(priority=73)
 	public void country_in_the_personal_information_page_in_the_account_page_is_united_states() {
 		Wallet_Elements w1 = new Wallet_Elements(driver);
@@ -162,5 +162,5 @@ WebDriver driver;
 		String expected_country= "United States";
 		Assert.assertEquals(expected_country, Country);
 		System.out.println("Country selected is "+ Country);
-	}
+	}*/
 }
