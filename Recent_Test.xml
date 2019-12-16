@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment"/>   	 
+ <class name="Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice"/>   	 
     </classes>
   </test> 
   </suite>
