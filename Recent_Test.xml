@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO11_Axate_lets_user_select_their_country"/>   	 
+ <class name="Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2"/>   	 
     </classes>
   </test> 
   </suite>
