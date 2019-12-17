@@ -52,35 +52,33 @@ public class Register_Page_Elements1 {
 	public void Registration_Step1() throws InterruptedException {
 		
 		randomEmail = randomEmail();	
-		try {
+	
 		driver_Register_Page_Elements.findElement(Register_Page_email).sendKeys(randomEmail);
 		WebDriverWait wait = new WebDriverWait(driver_Register_Page_Elements, 20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_password));
 		driver_Register_Page_Elements.findElement(Register_Page_password).sendKeys("Ajjukanna1$$");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Confirm_Password));
 		driver_Register_Page_Elements.findElement(Register_Page_Confirm_Password).sendKeys("Ajjukanna1$$");
+		Thread.sleep(6000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Terms_conditions_Checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_Terms_conditions_Checkbox).click();
+		Thread.sleep(6000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Privacy_checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_Privacy_checkbox).click();
+		Thread.sleep(6000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_marketing_checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_marketing_checkbox).click();
-		Thread.sleep(20000);
+		Thread.sleep(25000);
 		
 		driver_Register_Page_Elements.findElement(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")).click();
 		System.out.println("\n"+"Registered with the email "+ randomEmail +"\n");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_pay_by_card));
 		
 		}
-		catch(Exception e)
-		{
-			System.out.println("Couldn't pass through Reg step 1");
-		}
-		
-	}
+	
 	
 	public void Registration_Step2() throws InterruptedException{
 		WebDriverWait wait = new WebDriverWait(driver_Register_Page_Elements, 20);
