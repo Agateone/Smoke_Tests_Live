@@ -68,7 +68,7 @@ public class POPSMO31_Login_From_Wallet {
 				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				driver= new ChromeDriver();				
 				driver.get("https://popbitch.com");
-				Thread.sleep(10000);
+				Thread.sleep(20000);
 				Popbitch_Logged_Out_Wallet w1= new Popbitch_Logged_Out_Wallet(driver);
 				w1.Click_On_popbitch_agate_poster();
 				w1.Click_On_popbitch_wallet_Login_button();			

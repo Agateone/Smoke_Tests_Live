@@ -79,7 +79,7 @@ public class POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice {
 						Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);
 						Thread.sleep(5000);
 						popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
-						Thread.sleep(10000);
+						Thread.sleep(20000);
 			} 
 				//edge
 					else if (browser.equalsIgnoreCase("Edge")) {

@@ -67,7 +67,7 @@ public class POPSMO30_Login_From_First_Use_Notice {
 					System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 					driver= new ChromeDriver();				
 					driver.get("https://popbitch.com/2019/11/royal-blush/");
-					Thread.sleep(10000);
+					Thread.sleep(20000);
 					WebDriverWait wait = new WebDriverWait(driver, 20);
 					Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(driver);
 					popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Login();

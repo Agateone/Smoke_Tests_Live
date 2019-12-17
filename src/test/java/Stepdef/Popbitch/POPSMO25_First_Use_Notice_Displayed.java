@@ -51,7 +51,7 @@ public class POPSMO25_First_Use_Notice_Displayed {
 	@Test(priority=157)
 	public void i_navigate_to_a_premium_article_on_popbitch() throws InterruptedException {
 	   driver.get("https://popbitch.com/2019/11/royal-blush/");
-	   Thread.sleep(10000);
+	   Thread.sleep(20000);
 	}
 
 	@Then("the first use notice is displayed")
