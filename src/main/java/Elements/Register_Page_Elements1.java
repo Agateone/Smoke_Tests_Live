@@ -100,7 +100,7 @@ public class Register_Page_Elements1 {
 		driver_Register_Page_Elements.switchTo().defaultContent();	
 		driver_Register_Page_Elements.switchTo().frame("braintree-hosted-field-postalCode");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_postcode));
-		driver_Register_Page_Elements.findElement(Register_Page_postcode).sendKeys("Hp22 7BH");		
+		driver_Register_Page_Elements.findElement(Register_Page_postcode).sendKeys("E35QX");		
 		Thread.sleep(3000);
 		driver_Register_Page_Elements.switchTo().defaultContent();	
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_page_2_Continue));

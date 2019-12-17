@@ -79,6 +79,7 @@ public class POPSMO28_Free_period_from_new_publication_notice {
 				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				driver= new ChromeDriver();				
 				driver.get("https://reaction.life/labours-last-gasp/");
+				Thread.sleep(10000);
 				Reaction_first_use_notice reaction = new Reaction_first_use_notice(driver);
 				reaction.Click_On_Reaction_First_Use_CreateWallet();
 				WebDriverWait wait = new WebDriverWait(driver, 20);

@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice"/>   	 
+ <class name="Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice"/>   	 
     </classes>
   </test> 
   </suite>		
