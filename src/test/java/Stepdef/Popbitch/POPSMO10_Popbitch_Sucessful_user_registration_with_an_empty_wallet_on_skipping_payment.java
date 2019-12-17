@@ -78,16 +78,10 @@ WebDriver Popbitch_add_funds;
 				Popbitch_add_funds.get("https://popbitch.com/2019/11/royal-blush/");
 				Thread.sleep(10000);
 				Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(Popbitch_add_funds);
-				popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
 				Thread.sleep(5000);
-				WebDriverWait wait = new WebDriverWait(Popbitch_add_funds, 20);
-				wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));	
-				String reg_Page_url= Popbitch_add_funds.getCurrentUrl();
-				if(reg_Page_url.contains("https://account.agate.io/my-agate/sign-up?"))
-				{
-					System.out.println("Clicking on create wallet opened registration page");
-				}
-		} 
+				popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
+				Thread.sleep(10000);
+	} 
 		//edge
 			else if (browser.equalsIgnoreCase("Edge")) {
 			System.setProperty("webdriver.edge.driver","/Users/jay/eclipse-workspace/chromedriver"); 

@@ -68,6 +68,7 @@ public class POPSMO02_Popbitch_register_from_wallet {
 			System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 			Popbitch_register_from_wallet_driver= new ChromeDriver();				
 			Popbitch_register_from_wallet_driver.get("http://popbitch.com");
+			Thread.sleep(10000);
 			Popbitch_Logged_Out_Wallet w1= new Popbitch_Logged_Out_Wallet(Popbitch_register_from_wallet_driver);
 			w1.Click_On_popbitch_agate_poster();
 			w1.Click_On_popbitch_wallet_register_button();			

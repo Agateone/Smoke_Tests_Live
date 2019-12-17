@@ -73,6 +73,7 @@ public class POPSMO03_Popbitch_register_from_login_page {
 				System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 				Popbitch_Signup_Page_driver= new ChromeDriver();				
 				Popbitch_Signup_Page_driver.get("https://popbitch.com/2019/11/royal-blush/");
+				Thread.sleep(10000);
 				WebDriverWait wait = new WebDriverWait(Popbitch_Signup_Page_driver, 20);
 				Popbitch_First_Use_Notice_Elements popbitch_first_use_elements= new Popbitch_First_Use_Notice_Elements(Popbitch_Signup_Page_driver);
 				popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Login();
