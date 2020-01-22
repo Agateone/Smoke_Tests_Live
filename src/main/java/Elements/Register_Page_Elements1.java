@@ -59,19 +59,19 @@ public class Register_Page_Elements1 {
 		driver_Register_Page_Elements.findElement(Register_Page_password).sendKeys("Ajjukanna1$$");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Confirm_Password));
 		driver_Register_Page_Elements.findElement(Register_Page_Confirm_Password).sendKeys("Ajjukanna1$$");
-		Thread.sleep(6000);
+		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Terms_conditions_Checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_Terms_conditions_Checkbox).click();
-		Thread.sleep(6000);
+	
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_Privacy_checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_Privacy_checkbox).click();
-		Thread.sleep(6000);
+		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_marketing_checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_marketing_checkbox).click();
-		Thread.sleep(25000);
+		Thread.sleep(20000);
 		
 		driver_Register_Page_Elements.findElement(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")).click();
 		System.out.println("\n"+"Registered with the email "+ randomEmail +"\n");

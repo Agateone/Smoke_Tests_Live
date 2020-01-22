@@ -2,31 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name=" Popbitch Chrome">
   <test  name="Smoke Tests" >
-   <parameter name="browser" value="chrome" />
+   <parameter name="browser" value="firefox" />
     <classes>
   
    	<class name="Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO02_Popbitch_register_from_wallet"/>
-   	<class name="Stepdef.Popbitch.POPSMO03_Popbitch_register_from_login_page"/>
-   	<class name="Stepdef.Popbitch.POPSMO10_Popbitch_Sucessful_user_registration_with_an_empty_wallet_on_skipping_payment"/>
-   	<class name="Stepdef.Popbitch.POPSMO12_State_Postcode_Required_when_US_Selected_on_regpage2"/>
-   	<class name="Stepdef.Popbitch.POPSMO13_Popbitch_User_Registers_with_Country_As_US"/>
-   	<class name="Stepdef.Popbitch.POPSMO15_Wallet_balance_same_on_reading_article"/>
-   	<class name="Stepdef.Popbitch.POPSMO17_transaction_from_finish_notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO18_transaction_from_authorise_charge_notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO19_transaction_from_newpublication_notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO20_Unread_Updates_On_Date_Wallet_Back"/>
-   	<class name="Stepdef.Popbitch.POPSMO21_Read_Updates_On_Date_Wallet_Back"/>
-   	<class name="Stepdef.Popbitch.POPSMO22_Free_Point_Updates_On_Date_Wallet_Back"/>
-   	<class name="Stepdef.Popbitch.POPSMO23_Auto_Charge_Button_Back_Wallet_Off"/>
-   	<class name="Stepdef.Popbitch.POPSMO24_Auto_Charge_Button_Back_Wallet_On"/>
-   	<class name="Stepdef.Popbitch.POPSMO25_First_Use_Notice_Displayed"/>
-   	<class name="Stepdef.Popbitch.POPSMO26_Popbitch_Free_Period_From_Finish_Notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO27_Popbitch_Free_Period_From_Authoirse_Charge_Notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO28_Free_period_from_new_publication_notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO29_Free_period_on_2_publications"/>
-   	<class name="Stepdef.Popbitch.POPSMO30_Login_From_First_Use_Notice"/>
-   	<class name="Stepdef.Popbitch.POPSMO31_Login_From_Wallet"/>
+  
    
    	
    	 
