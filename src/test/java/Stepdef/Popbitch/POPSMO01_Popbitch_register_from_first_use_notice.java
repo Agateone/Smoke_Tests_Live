@@ -75,6 +75,7 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 						Thread.sleep(5000);
 						popbitch_first_use_elements.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
 						Thread.sleep(20000);
+						System.out.println("1 of 6");
 			} 
 				//edge
 					else if (browser.equalsIgnoreCase("Edge")) {
@@ -88,9 +89,10 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 	@When("^I enter all the required details on step one and click on continue$")
 	@Test(priority=2)
 	public void i_enter_all_the_required_details_on_step_one_and_click_on_continue() throws Throwable {
-	 Thread.sleep(5000);
+	 Thread.sleep(7000);
 		Register_Page_Elements1 Reg_page_elements = new Register_Page_Elements1(driver);
 		Reg_page_elements.Registration_Step1();
+		System.out.println("2 of 6");
 		
 	}
 
@@ -103,6 +105,7 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 		Reg_page_elements.voucher_process();
 		Thread.sleep(5000);
 		Reg_page_elements.click_continue_on_reg_page2();
+		System.out.println("3 of 6");
 	}
 	
 	
@@ -114,6 +117,7 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 		String actual_current_balance=w1.current_balance();
 		String expected_current_balance="10.00";
 		Assert.assertEquals(actual_current_balance, expected_current_balance);	
+		System.out.println("4 of 6");
 	}
 
 	
@@ -122,7 +126,8 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 	public void navigated_to_the_same_article() throws Throwable {
 	    String actual_url= driver.getCurrentUrl();
 	    String expected_url = "https://popbitch.com/2019/11/royal-blush/";
-	    Assert.assertEquals(actual_url, expected_url);	
+	    Assert.assertEquals(actual_url, expected_url);
+	    System.out.println("5 of 6");
 	}
 	
 	
@@ -134,6 +139,7 @@ public class POPSMO01_Popbitch_register_from_first_use_notice {
 		Boolean Expected_result= true;
 		Assert.assertEquals(Actual_result, Expected_result);
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		System.out.println("6 of 6");
 		driver.quit();
 	}
 	
