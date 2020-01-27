@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name=" Popbitch Chrome">
-  <test  name="Smoke Tests" >
-   <parameter name="browser" value="firefox" />
+  <test  name="popbitch_Smoke_Tests" >
+   <parameter name="browser" value="chrome" />
     <classes>
   
    	<class name="Stepdef.Popbitch.POPSMO01_Popbitch_register_from_first_use_notice"/>
