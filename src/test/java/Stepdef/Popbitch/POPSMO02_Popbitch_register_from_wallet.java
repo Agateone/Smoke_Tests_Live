@@ -31,7 +31,8 @@ public class POPSMO02_Popbitch_register_from_wallet {
 	@Test(priority=7)
 	@Parameters("browser")
 	public void i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_popbitch_Wallet_homepages(String browser) throws InterruptedException {	
-	//firefox
+		System.out.println("Executing POPSMO02_Popbitch_register_from_wallet");
+		//firefox
 	if(browser.equalsIgnoreCase("firefox")) {
 		System.setProperty("webdriver.gecko.driver","C:/Users/Administrator/Desktop/geckodriver.exe");		
 		Popbitch_register_from_wallet_driver = new FirefoxDriver();
@@ -78,7 +79,8 @@ public class POPSMO02_Popbitch_register_from_wallet {
 			if(reg_Page_url.contains("sign"))
 			{
 				System.out.println("Clicking on create wallet opened registration page");
-			}			
+			}
+			System.out.println("1 of 5");
 	} 
 	//edge
 		else if (browser.equalsIgnoreCase("Edge")) {
@@ -94,6 +96,7 @@ public class POPSMO02_Popbitch_register_from_wallet {
 	 
 		Register_Page_Elements1 Reg_page_elements = new Register_Page_Elements1(Popbitch_register_from_wallet_driver);
 		Reg_page_elements.Registration_Step1();
+		System.out.println("2 of 5");
 		
 	}
 
@@ -105,6 +108,7 @@ public class POPSMO02_Popbitch_register_from_wallet {
 		Register_Page_Elements1 Reg_page_elements = new Register_Page_Elements1(Popbitch_register_from_wallet_driver);
 			Reg_page_elements.voucher_process();
 			Reg_page_elements.click_continue_on_reg_page2();
+			System.out.println("3 of 5");
 	}
 	
 	
@@ -117,7 +121,8 @@ public class POPSMO02_Popbitch_register_from_wallet {
 		w1.Click_On_popbitch_staging_agate_poster();
 		String actual_current_balance=w1.current_balance();
 		String expected_current_balance="10.00";
-		Assert.assertEquals(actual_current_balance, expected_current_balance);		
+		Assert.assertEquals(actual_current_balance, expected_current_balance);
+		System.out.println("4 of 5");
 	}
 	
 	//And navigated to popbitch.com
@@ -127,6 +132,7 @@ public class POPSMO02_Popbitch_register_from_wallet {
 		String actual_url= Popbitch_register_from_wallet_driver.getCurrentUrl();
 	    String expected_url = "https://popbitch.com/";
 	    Assert.assertEquals(actual_url, expected_url);
+	    System.out.println("5 of 5");
 	    Popbitch_register_from_wallet_driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	    Popbitch_register_from_wallet_driver.quit();
 	}
