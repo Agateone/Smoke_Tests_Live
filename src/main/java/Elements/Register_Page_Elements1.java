@@ -75,6 +75,7 @@ public class Register_Page_Elements1 {
 		
 		driver_Register_Page_Elements.findElement(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")).click();
 		System.out.println("\n"+"Registered with the email "+ randomEmail +"\n");
+		Thread.sleep(6000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_pay_by_card));
 		
 		}
